@@ -11,10 +11,10 @@ const config = createConfig(
 		walletConnectProjectId: "demo",
 
 		// Required
-		appName: "Basecamp",
+		appName: "template",
 
 		// Optional
-		appDescription: "Basecamp Demo",
+		appDescription: "template Demo",
 		appUrl: "https://family.co", // your app's url
 		appIcon: "https://family.co/logo.png", // your app's logo,no bigger than 1024x1024px (max. 1MB)
 	})

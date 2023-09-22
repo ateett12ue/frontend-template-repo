@@ -13,7 +13,7 @@ export default function InstructionsComponent() {
       <header className={styles.header_container}>
         <div className={styles.header}>
           <h1>
-            Testing<span>Basecamp</span>
+            Testing<span>template</span>
           </h1>
         </div>
       </header>

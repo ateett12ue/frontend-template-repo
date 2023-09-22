@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <a target={"_blank"}>
-        Basecamp
+        template
       </a>
       <div className="text-3xl font-bold underline">
           Hello world
