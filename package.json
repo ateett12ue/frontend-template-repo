@@ -1,12 +1,14 @@
 {
-  "name": "template-frontend-test",
+  "name": "BasecampPoc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.6",
@@ -15,6 +17,8 @@
     "encoding": "^0.1.13",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.4",
     "fs": "^0.0.1-security",
     "hugo": "^0.0.3",
     "lokijs": "^1.5.12",
@@ -28,9 +32,11 @@
     "wagmi": "^1.0.9"
   },
   "devDependencies": {
-    "@types/react": "18.2.14",
+    "@types/node": "^20.8.4",
+    "@types/react": "^18.2.14",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.30",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
   }
 }
