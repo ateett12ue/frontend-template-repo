@@ -7,6 +7,7 @@ module.exports = {
   reactStrictMode: false,
   webpack: (config) => {
     config.resolve.fallback = { fs: false, net: false };
+    config.resolve.extensions.push(".ts", ".tsx");
     return config;
   },
 };
